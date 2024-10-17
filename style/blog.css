@@ -1,7 +1,7 @@
 /* work sens for font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     font-family: "Work Sans", sans-serif;
     margin: 0;
     padding: 0;
@@ -9,35 +9,112 @@
 }
 
 /* header section */
-nav{
+
+header {
     background-color: rgba(255, 144, 14, 0.1);
+    padding: 20px 150px;
+    margin: 0 auto;
+
 }
-.nav-header{
+
+.nav-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 130px;
+
 }
-.logo{
+
+.logo {
     color: #131313;
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 700;
 }
-.nav-header .nav-option ul{
+
+.nav-header .nav-option ul {
     text-decoration: none;
     display: flex;
     justify-content: space-evenly;
 }
-.nav-header .nav-option ul> li{
+
+.nav-header .nav-option ul>li {
     display: flex;
     justify-content: space-evenly;
     text-decoration: none;
 }
-.nav-header .nav-option ul> li a{
+
+.nav-header .nav-option ul>li a {
     text-decoration: none;
-    padding-right: 30px;
+    padding-right: 20px;
     color: #424242;
     font-size: 1.2rem;
     font-weight: 500;
     cursor: pointer;
 }
+
+/* Banner section */
+
+
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.banner-head {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-discription {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 5px 0;
+
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    padding: 25px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: 0;
+    border-radius: 8px;
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* Responsive for mobile */
+@media screen and (max-width:576px) {
+
+    header {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px 0;
+
+    }
+
+    .nav-header {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+/* banner */
+.banner {
+   flex-direction: column;
+   padding: 0 15px;
+}
+
+}
+
+/* responsive for tab */
