@@ -3,4 +3,41 @@
 
 *{
     font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section */
+nav{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 130px;
+}
+.logo{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-header .nav-option ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-header .nav-option ul> li{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.nav-header .nav-option ul> li a{
+    text-decoration: none;
+    padding-right: 30px;
+    color: #424242;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
 }
