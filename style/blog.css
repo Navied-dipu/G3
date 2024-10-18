@@ -261,6 +261,43 @@ main {
     font-size: 1.25rem;
     font-weight: 600;
 }
+/* sponspors */
+
+.sponspors-content {
+    margin-top: 60px;
+text-align: center;
+padding: 100px;
+}
+.sponspors-content h1{
+    color: #424242;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.sponspors-content p{
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.sponspors-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* footer */
+.footer-content{
+    background-color: #FFF4E7;
+text-align: center;
+padding: 20px;
+margin: 50px;
+border: 0;
+border-radius: 8px;
+}
+.footer-content p{
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
 
 
 /* Responsive for mobile */
@@ -329,9 +366,33 @@ main {
     }
 
     .year-btn {
+
         position: static;
         max-width: 350px;
         margin: auto;
+        margin-top: 15px;
+    }
+    .facts{
+       text-align: center;
+       padding: 10px;
+    }
+    /* achivement  */
+    .achivement {
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* sponspors */
+    .sponspors-content{
+        text-align: center;
+    }
+    .sponspors-icon{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* footer*/
+    ..footer-content{
+        align-items: center;
     }
 }
 
