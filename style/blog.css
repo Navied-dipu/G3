@@ -157,36 +157,43 @@ main {
     border-left: 5px solid #FF900E;
     padding-left: 10px;
 }
+
 .feature-content-head p {
-  color: #727272;
-  font-size: 1rem;
-  font-weight: 400;
-  padding-top: 10px;
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 10px;
 }
-.feature-content-box{
+
+.feature-content-box {
     margin-top: 30px;
 }
+
 .feature-content-box1 {
     padding: 40px;
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
-.feature-content-box1 h3{
-color: #131313;
-font-size: 1.25rem;
-font-weight: 600;
+
+.feature-content-box1 h3 {
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
-.feature-content-box1 p{
-color: #727272;
-font-size: 1rem;
-font-weight: 400;
+
+.feature-content-box1 p {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
 }
-.feature-img img{
+
+.feature-img img {
     height: 90%;
     margin-left: 60px;
 }
-.year-btn{
+
+.year-btn {
     text-align: center;
     background-color: #FF900E;
     border: 0;
@@ -197,15 +204,62 @@ font-weight: 400;
     bottom: 130px;
     margin-left: 20px;
 }
-.year-btn h1{
+
+.year-btn h1 {
     color: #FFF;
     font-size: 4rem;
     font-weight: 700;
 }
-.year-btn p{
+
+.year-btn p {
     color: #FFF;
     font-size: 1.5rem;
     font-weight: 500;
+}
+
+/* facts */
+.facts {
+    margin-top: 40px;
+}
+
+.facts h1 {
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.facts p {
+    padding-top: 20px;
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* achivment */
+.achivement {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.achi-box {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 30px;
+    text-align: center;
+}
+
+.achi-box h1 {
+    color: #424242;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.achi-box p {
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
 
@@ -255,23 +309,29 @@ font-weight: 400;
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
     }
-    .feature{
+
+    /* feature section */
+    .feature {
         flex-direction: column;
     }
-    .feature-img img{
+
+    .feature-img img {
         width: 100%;
         margin-left: 0;
     }
-    .feature-content-head{
+
+    .feature-content-head {
         padding: 0 10px;
     }
-    .feature-content-box{
+
+    .feature-content-box {
         width: 100%;
     }
-    .year-btn{
-    position: static;
-    max-width: 350px;
-    margin: auto;
+
+    .year-btn {
+        position: static;
+        max-width: 350px;
+        margin: auto;
     }
 }
 
